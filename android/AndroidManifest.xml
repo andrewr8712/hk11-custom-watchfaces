@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.hk11.sessiontest">
+    <uses-sdk android:minSdkVersion="33" android:targetSdkVersion="35" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <application android:debuggable="true" android:label="HK11 Dial Test" />
+    <instrumentation android:name="local.hk11.dialtest.DialTest" android:targetPackage="local.hk11.sessiontest" />
+</manifest>
